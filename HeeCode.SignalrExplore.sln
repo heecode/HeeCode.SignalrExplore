@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeeCode.SignalrExplore.Api"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeeCode.SignalrExplore.Web", "HeeCode.SignalrExplore.Web\HeeCode.SignalrExplore.Web.csproj", "{A40EF400-2906-460E-AA0C-227BAD0C06BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeeCode.SignalrExplore.Sample", "HeeCode.SignalrExplore.Sample\HeeCode.SignalrExplore.Sample.csproj", "{06F3AD29-3416-409B-A6BC-89488F8112C0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
