@@ -1,0 +1,22 @@
+﻿<div class="row">
+    <div class="col-md-1">
+        <input type="text" id="msg" value=" " ng-model="home.message" />
+        <ul id="message"></ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+       <input type="button" ng-click="home.updateDateFunc()" value="Update "  />
+        <input type="button" ng-click="home.updateDateService()" value="Update Service " />
+        <input type="button" ng-click="home.updateSignalRInvoke()" value="Update SignalR Invoke " />
+    </div>
+    <div class="col-md-4">
+        <h3>{{home.updateDate}}</h3>
+    </div>
+    <div class="col-md-4">
+        
+    </div>
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeeCode.SignalrExplore.Api", "HeeCode.SignalrExplore.Api\HeeCode.SignalrExplore.Api.csproj", "{DBCC48EC-19A4-4863-8F75-A83509A77304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeeCode.SignalrExplore.Web", "HeeCode.SignalrExplore.Web\HeeCode.SignalrExplore.Web.csproj", "{A40EF400-2906-460E-AA0C-227BAD0C06BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeeCode.SignalrExplore.Sample", "HeeCode.SignalrExplore.Sample\HeeCode.SignalrExplore.Sample.csproj", "{06F3AD29-3416-409B-A6BC-89488F8112C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCC48EC-19A4-4863-8F75-A83509A77304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC48EC-19A4-4863-8F75-A83509A77304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC48EC-19A4-4863-8F75-A83509A77304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC48EC-19A4-4863-8F75-A83509A77304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40EF400-2906-460E-AA0C-227BAD0C06BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F3AD29-3416-409B-A6BC-89488F8112C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
