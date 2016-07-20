@@ -3,17 +3,37 @@
 
     var app = angular.module('myApp', [
         // Angular modules 
-        'ngRoute',
+        'ngRoute'
 
        
         
     ]);
 
-   app.config([
-     "$routeProvider",
-     function ($routeProvider) {
+    app.provider("game", function () {
+        var type;
+        return {
+            setType: function (value) {
+                type = value;
+            },
+            $get: function () {
+                return {
+                    title: type + "Craft"
+                };
+            }
+        };
+    });
 
-       
+    
+
+    //config(["messageProvider", function (messageProvider) {
+    //    messageProvider.setText("Hello world!");
+    //}])
+
+   app.config([
+     "$routeProvider", "gameProvider",
+     function ($routeProvider, gameProvider) {
+
+         gameProvider.setType("War");
 
          $routeProvider
              .when("/home", {

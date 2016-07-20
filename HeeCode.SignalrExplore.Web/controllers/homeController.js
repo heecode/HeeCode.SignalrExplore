@@ -2,14 +2,14 @@
     'use strict';
 
     var app =  angular.module('myApp');
-    app.controller('homeController',["$scope","$http","SignalRHub", homeController]);
+    app.controller('homeController',["$scope","$http","SignalRHub","game", homeController]);
 
     
 
-    function homeController($scope,$http, SignalRHub) {
+    function homeController($scope,$http, SignalRHub,game) {
         /* jshint validthis:true */
         var vm = this;
-        vm.title = 'homeController';
+        vm.title = game.title;
 
         activate();
 
